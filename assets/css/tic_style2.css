@@ -1,0 +1,55 @@
+body{
+  font-family: roboto;
+}
+
+.MainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  align-self: center;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 4.5rem;
+}
+
+.title h1{
+  font-family: fantasy;
+}
+
+.RulesContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RulesContainer p{
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  display: contents;
+}
+
+.StartGame{
+  width: 15%;
+  height: 2.5rem;
+  align-self: center;
+  background: black;
+  color: white;
+  border: 0.3rem solid #FFB800;
+  border-radius: 2rem;
+}
+
+.footer{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer footer p {
+  font-family: fantasy;
+  font-style: italic;
+}
